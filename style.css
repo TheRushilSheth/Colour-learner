@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+  
+}
+p{
+    padding-top: 150px;
+	font-size: 2.9em;
+}
+h3{
+    font-size: 3.2em;
+}
+.colour change:after{
+	color: #9c27b0;
+}
+.change:after{
+	content: "";
+	animation: change 15s linear infinite;
+}
+@keyframes change{
+	 0%{
+	 	content: "Red";
+	 	color: red;
+	 }
+	  10%{
+	 	content: "Blue";
+	 	color: blue;
+	 }
+	 
+	  20%{
+	 	content: "Pink";
+	 	color: pink;
+	 }
+	 
+	  30%{
+	 	content: "Black";
+	 	color: black;
+	 }
+	 
+	  40%{
+	 	content: "Violet";
+	 	color: #ee82ee;
+	 }
+	 
+	  50%{
+	 	content: "Orange";
+	 	color: orange;
+	 }
+	 
+	  60%{
+	 	content: "Green";
+	 	color: green;
+	 }
+	 
+	  70%{
+	 	content: "Dark Magenta";
+	 	color: #8b008b;
+	 }
+	 
+	  80%{
+	 	content: "Purple";
+	 	color: #800080;
+	 }
+	 
+	  90%{
+	 	content: "Indigo";
+	 	color: #4b0082;
+	 }
+	 
+	  100%{
+	 	content: "Gray";
+	 	color: gray;
+	 }
+	 
+}
